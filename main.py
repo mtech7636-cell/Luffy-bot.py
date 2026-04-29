@@ -13,7 +13,7 @@ def run_server():
     app.run(host='0.0.0.0', port=port)
 
 # --- CONFIG ---
-TOKEN = "8071819758:AAEIRWQjnW-LaeZQYnN7RSLTazAj9IgE-iw"
+TOKEN ="8071819758:AAEIRWQjnW-LaeZQYnN7RSLTazAj9IgE-iw"
 bot = telebot.TeleBot(TOKEN)
 ADMIN_ID = 7212602902 
 
