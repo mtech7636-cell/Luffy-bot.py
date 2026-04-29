@@ -18,10 +18,10 @@ def run_flask():
     app.run(host='0.0.0.0', port=port)
 
 # --- BOT CONFIGURATION ---
-TOKEN = "8230723230:AAGZhHB9gEDoKbmXF_aWJ5lAFXjVWCkw_pI"
+TOKEN = "8230723230:AAGZhHB9gEDoKbmXF_aWJ5lAFXjVWCpI"
 bot = telebot.TeleBot(TOKEN, threaded=False)
 
-ADMIN_ID = 8157596960
+ADMIN_ID = 8157596
 
 API_KEYS = {
     "CPM1": "AIzaSyBW1ZbMiUeDZHYUO2bY8Bfnf5rRgrQGPTM", 
